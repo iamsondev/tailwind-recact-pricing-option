@@ -2,14 +2,16 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import DaisyNav from './Components/DaisyNav/DaisyNav'
+import Navbar from './Components/DaisyNav/Navbar'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-
-      <h1>Vite + React</h1>
+     <Navbar></Navbar>
+    {/* <DaisyNav></DaisyNav>
       <div className="hero bg-base-200 min-h-screen">
         <div className="hero-content flex-col lg:flex-row">
           <img
@@ -24,7 +26,7 @@ function App() {
             <button className="btn btn-primary">Get Started</button>
           </div>
         </div>
-      </div>
+      </div> */}
 
     </>
   )
