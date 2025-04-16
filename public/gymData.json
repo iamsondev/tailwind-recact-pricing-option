@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Basic Plan",
+    "duration": "Daily",
+    "price": "$50.00 USD",
+    "description": "The Basic Plan is perfect for first-time visitors or those looking for a quick, one-day workout. It provides all the essential amenities without any long-term commitment.",
+    "features": [
+      "Access to all gym equipment",
+      "No registration needed",
+      "Locker facility available",
+      "Free water bottle on entry",
+      "Fitness tracking app access",
+      "Free trial class (1 session)",
+      "Water refill stations"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Premium Plan",
+    "duration": "Weekly",
+    "price": "$100.00 USD",
+    "description": "The Premium Plan is designed for fitness enthusiasts who want complete access to all gym facilities and exclusive services. Ideal for those who are committed to their fitness journey and want added benefits.",
+    "features": [
+      "Unlimited gym access",
+      "Access to group classes (Zumba, Yoga)",
+      "Complimentary fitness assessment",
+      "Guest pass for one friend (1 day)",
+      "Access to advanced equipment (HIIT, Cardio machines)",
+      "Exclusive workshops and seminars",
+      "Priority booking for fitness classes"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Family Plan",
+    "duration": "Monthly",
+    "price": "$300.00 USD",
+    "description": "The Family Plan offers everything for family-focused gym-goers, from flexible access to personal training sessions to special family-only facilities and events. Perfect for those looking for a more personalized gym experience for the whole family.",
+    "features": [
+      "Unlimited access to all equipment",
+      "Free entry to fitness classes",
+      "1 diet consultation",
+      "2 personal training sessions",
+      "Priority support & scheduling",
+      "Family locker room access",
+      "Free entry to special gym events",
+      "Free gym merchandise (T-shirt, towel)"
+    ]
+  }
+]

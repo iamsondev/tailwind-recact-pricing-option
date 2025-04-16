@@ -14,7 +14,7 @@ const navigationData = [
 const Navbar = () => {
   
 const [open, setOpen] = useState(false);
-const links =  navigationData.map(route => <Link route={route}></Link> );
+const links =  navigationData.map(route => <Link key={route.id} route={route}></Link> );
   return (
     <nav className='flex justify-between mx-12 mt-4'>
         <span className='flex' onClick={()=>setOpen(!open)}>
@@ -22,7 +22,7 @@ const links =  navigationData.map(route => <Link route={route}></Link> );
           <CircleX className='md:hidden'></CircleX>: 
           <Menu className='md:hidden'></Menu>}
            <ul className={`md:hidden absolute duration-1000
-            ${open? 'top-8' : '-top-70'}
+            ${open? 'top-10' : '-top-70'}
              bg-amber-400`}>
              
                 {links}
