@@ -26,7 +26,7 @@ const DaisyCard = ({ pricing }) => {
         </div>
       </div>
     </div>
-  );
+  );fgdfgtgfth
 };
 
 export default DaisyCard;
